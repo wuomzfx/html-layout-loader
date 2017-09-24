@@ -1,0 +1,17 @@
+{
+  "name": "html-layout-loader",
+  "version": "0.1.0",
+  "description": "simple html layout loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "layout",
+    "loader",
+    "webpack"
+  ],
+  "author": "xiangxuezhang <75851654@qq.com>",
+  "license": "MIT"
+}
