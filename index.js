@@ -18,8 +18,7 @@ const render = (layoutPath, placeholder, source) => {
 module.exports = function (source) {
   this.cacheable && this.cacheable()
   const options = Object.assign(loaderUtils.getOptions(this), defaultOptions)
-  const { placeholder, decorator } = options
-  let { layout } = options
+  const { placeholder, decorator, layout } = options
   const reg = new RegExp(`(@${decorator}\\()(.*?)\\)`)
   const regResult = reg.exec(source)
   var callback = this.async()
