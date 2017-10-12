@@ -1,10 +1,10 @@
-# html-webpack-loader
+# html-layout-loader
 
 > simple html layout loader for webpack
 
 ## Install
 
-`npm install html-webpack-loader`
+`npm install html-layout-loader`
 
 ## Required
 
@@ -45,7 +45,7 @@
   ```javascript
   {
     test: /\.(html)$/,
-    loader: './layout-loader'
+    loader: 'html-layout-loader'
   },
   ```
   B. setting default layout in loader options, so you don't do any thing in html
@@ -57,10 +57,10 @@
   ```javascript
   {
     test: /\.(html)$/,
-    loader: './layout-loader',
+    loader: 'html-layout-loader',
     include: htmlPath, // the htmls you want inject to layout
     options: {
-      layout: layoutHtmlPath
+      layout: layoutHtmlPath // the path of default layout html
     }
   }
   ```
