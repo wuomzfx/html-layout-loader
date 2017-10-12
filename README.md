@@ -60,7 +60,7 @@
     loader: './layout-loader',
     include: htmlPath, // the htmls you want inject to layout
     options: {
-      layout: layoutHtmlPath
+      layout: layoutHtmlPath
     }
   }
   ```
