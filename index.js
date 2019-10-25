@@ -12,7 +12,7 @@ const render = (layoutPath, placeholder, source, context) => {
   } catch (error) {
     throw error
   }
-  // context.addDependency(layoutPath)
+  context.addDependency(layoutPath)
   return layoutHtml.replace(placeholder, source)
 }
 
