@@ -1,0 +1,14 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "file-loader": "^4.2.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9"
+    },
+    "scripts": {
+        "build": "webpack"
+    }
+}
