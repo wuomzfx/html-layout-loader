@@ -30,7 +30,6 @@ module.exports = function (source) {
         rs = path.resolve(this.resourcePath, '../', request)
       }
       source = source.replace(regResult[0], '')
-      console.log(render(rs, placeholder, source, this));
       callback(null, render(rs, placeholder, source, this))
     })
   } else if (layout) {
