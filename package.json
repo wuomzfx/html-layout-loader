@@ -13,5 +13,8 @@
     "webpack"
   ],
   "author": "xiangxuezhang <75851654@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.2.3"
+  }
 }
